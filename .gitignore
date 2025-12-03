@@ -1,0 +1,167 @@
+# Deriv Rise/Fall Bot Pro - Git Ignore File
+
+# ===================
+# Environment & Secrets
+# ===================
+.env
+.env.local
+.env.*.local
+*.env
+secrets.json
+config/secrets.json
+telegram-credentials.json
+
+# ===================
+# IDE & Editor
+# ===================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ===================
+# OS Generated
+# ===================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===================
+# Python
+# ===================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv/
+
+# ===================
+# Testing
+# ===================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+test-results/
+test-output/
+
+# ===================
+# Logs
+# ===================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===================
+# Build & Distribution
+# ===================
+build/
+dist/
+out/
+release/
+*.zip
+*.tar.gz
+*.rar
+
+# ===================
+# Documentation Build
+# ===================
+docs/_build/
+site/
+
+# ===================
+# Temporary Files
+# ===================
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# ===================
+# Bot Specific
+# ===================
+# Personal configuration files
+config/personal-settings.json
+config/my-config.json
+
+# Trading logs (may contain sensitive data)
+trading-logs/
+session-logs/
+
+# Backup bot files
+bot/*.bak
+bot/*.backup
+
+# Test results with account data
+tests/results/
+
+# ===================
+# Package Managers
+# ===================
+node_modules/
+package-lock.json
+yarn.lock
+
+# ===================
+# Jupyter Notebooks
+# ===================
+.ipynb_checkpoints/
+*.ipynb
+
+# ===================
+# Archives (Keep clean)
+# ===================
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.tar
