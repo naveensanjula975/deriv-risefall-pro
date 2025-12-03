@@ -1,0 +1,50 @@
+{
+  "_description": "Deriv Rise/Fall Bot Pro - Conservative Preset",
+  "_risk_level": "conservative",
+  "_warning": "Low risk, low reward. Best for beginners and small accounts.",
+  
+  "trading": {
+    "base_stake": 0.50,
+    "contract_type": "rise_fall",
+    "contract_duration": 1,
+    "duration_unit": "ticks",
+    "trading_asset": "R_100",
+    "trade_direction": "random"
+  },
+  
+  "martingale": {
+    "enabled": true,
+    "multiplier": 1.5,
+    "max_steps": 3,
+    "reset_on_win": true
+  },
+  
+  "risk_management": {
+    "take_profit": 25.00,
+    "stop_loss": 15.00,
+    "max_consecutive_losses": 3,
+    "min_balance_threshold": 10.00,
+    "max_daily_trades": 0
+  },
+  
+  "telegram": {
+    "enabled": false,
+    "bot_token": "YOUR_BOT_TOKEN",
+    "chat_id": "YOUR_CHAT_ID",
+    "notifications": {
+      "on_win": true,
+      "on_loss": true,
+      "on_start": true,
+      "on_stop": true,
+      "on_take_profit": true,
+      "on_stop_loss": true,
+      "session_summary": true
+    }
+  },
+  
+  "_analysis": {
+    "max_possible_loss": 4.56,
+    "recommended_balance": 50.00,
+    "risk_rating": "LOW"
+  }
+}

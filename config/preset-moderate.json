@@ -1,0 +1,50 @@
+{
+  "_description": "Deriv Rise/Fall Bot Pro - Moderate Preset (Recommended)",
+  "_risk_level": "moderate",
+  "_warning": "Balanced risk and reward. Suitable for most traders.",
+  
+  "trading": {
+    "base_stake": 1.00,
+    "contract_type": "rise_fall",
+    "contract_duration": 1,
+    "duration_unit": "ticks",
+    "trading_asset": "R_100",
+    "trade_direction": "random"
+  },
+  
+  "martingale": {
+    "enabled": true,
+    "multiplier": 2.0,
+    "max_steps": 5,
+    "reset_on_win": true
+  },
+  
+  "risk_management": {
+    "take_profit": 50.00,
+    "stop_loss": 25.00,
+    "max_consecutive_losses": 5,
+    "min_balance_threshold": 10.00,
+    "max_daily_trades": 0
+  },
+  
+  "telegram": {
+    "enabled": false,
+    "bot_token": "YOUR_BOT_TOKEN",
+    "chat_id": "YOUR_CHAT_ID",
+    "notifications": {
+      "on_win": true,
+      "on_loss": true,
+      "on_start": true,
+      "on_stop": true,
+      "on_take_profit": true,
+      "on_stop_loss": true,
+      "session_summary": true
+    }
+  },
+  
+  "_analysis": {
+    "max_possible_loss": 31.00,
+    "recommended_balance": 100.00,
+    "risk_rating": "MEDIUM"
+  }
+}
